@@ -50,6 +50,7 @@ public class MapperTest {
             String uuid = UUID.randomUUID().toString().substring(0, 5)+i;
             mapper.insertSelective(new Employee(null,uuid,"M",uuid+"@163.com",1));
             System.out.println();
+            System.out.println();
         }
     }
 }
